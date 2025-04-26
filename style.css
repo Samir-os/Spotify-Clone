@@ -1,477 +1,460 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: hsl(0, 0%, 0%);
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  background-color: hsl(0, 0%, 0%);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.sidebar{
-    width: 25vw;
-    background-color: hsl(0, 0%, 0%);
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    padding: 10px;
-    
-
+.sidebar {
+  width: 25vw;
+  background-color: hsl(0, 0%, 0%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
 }
 
-.sidbar-nav{
-  background-color: hsl(0, 0%, 7%); 
-  border-radius: 10px; 
+.sidbar-nav {
+  background-color: hsl(0, 0%, 7%);
+  border-radius: 10px;
   padding: 20px 10px;
   margin-bottom: 10px;
 }
 
-.sidbar-nav .logo{
-    width: 35%;
+.sidbar-nav .logo {
+  width: 35%;
 }
 
-.sidbar-nav .logo img{
-    width: 100%;
+.sidbar-nav .logo img {
+  width: 100%;
 }
 
-.sidbar-nav ul{
-    list-style: none;
+.sidbar-nav ul {
+  list-style: none;
 }
 
-.sidbar-nav ul li{
-    padding: 10px 20px;
+.sidbar-nav ul li {
+  padding: 10px 20px;
 }
 
-.sidbar-nav ul li a:hover{
-   color: hsl(0, 0%, 100%);
+.sidbar-nav ul li a:hover {
+  color: hsl(0, 0%, 100%);
 }
 
-.sidbar-nav ul li a{
-    text-decoration: none;
-    color: hsl(0, 0%, 70%);
-    font-size: 1em;
-    font-weight: 600;
+.sidbar-nav ul li a {
+  text-decoration: none;
+  color: hsl(0, 0%, 70%);
+  font-size: 1em;
+  font-weight: 600;
 }
 
-.sidbar-nav ul li i{
-    font-size: 1.3rem;
-    margin-right: 10px;
+.sidbar-nav ul li i {
+  font-size: 1.3rem;
+  margin-right: 10px;
 }
 
 /* to make plus */
-.Library:after{
-    content: '+';
-    float: right;
-    text-align: center;
-    border-radius: 50%;
-    font-size: 16px;
+.Library:after {
+  content: "+";
+  float: right;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 16px;
 }
 
-.listen{
-    background-color: hsl(0, 0%, 9%);
-    border-radius: 10px;
-    margin-bottom: 10px;
-    padding:25px 15px;
+.listen {
+  background-color: hsl(0, 0%, 9%);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 25px 15px;
 }
 
-.sidebar-Scroll{
-    height: 120px;
-    overflow-y: auto;
+.sidebar-Scroll {
+  height: 120px;
+  overflow-y: auto;
 }
 
-.sidebar-Scroll::-webkit-scrollbar{
-    background: transparent;
+.sidebar-Scroll::-webkit-scrollbar {
+  background: transparent;
 }
 
-.sidebar-Scroll::-webkit-scrollbar-thumb{
-    background: transparent;
-    width: 10px;
+.sidebar-Scroll::-webkit-scrollbar-thumb {
+  background: transparent;
+  width: 10px;
 }
 
-.sidebar-Scroll:hover::-webkit-scrollbar-thumb{
-    background:hsl(0, 1%, 19%);
-    width: 5px;
+.sidebar-Scroll:hover::-webkit-scrollbar-thumb {
+  background: hsl(0, 1%, 19%);
+  width: 5px;
 }
 
-.listen h4{
-    color: hsl(0, 0%, 100%);
-    font-size: 15px;
+.listen h4 {
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
 }
 
-.listen p{
-    color: hsl(0, 0%, 100%);
-    font-size: 12px;
-    margin: 10px 0px;
+.listen p {
+  color: hsl(0, 0%, 100%);
+  font-size: 12px;
+  margin: 10px 0px;
 }
 
-.listen button{
-    padding: 8px 15px;
-    border: none;
-    outline: none;
-    border-radius: 17px;
-    font-weight: 600;
-    margin-bottom: 10px;
+.listen button {
+  padding: 8px 15px;
+  border: none;
+  outline: none;
+  border-radius: 17px;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 
-.privacy ul li a{
-    text-decoration: none;
-    color:hsl(0, 0%, 43%) ;
-    font-size: 12px;
-    font-weight: 600;
-    margin: 0px 6px;
+.privacy ul li a {
+  text-decoration: none;
+  color: hsl(0, 0%, 43%);
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0px 6px;
 }
 
-.privacy ul li a:hover{
-    text-decoration: underline;
-    color:hsl(0, 1%, 59%) ;
+.privacy ul li a:hover {
+  text-decoration: underline;
+  color: hsl(0, 1%, 59%);
 }
 
-.privacy ul{
-    list-style: none;
-    margin-top: 15px;
+.privacy ul {
+  list-style: none;
+  margin-top: 15px;
 }
 
-.privacy ul li{
-    /* padding reset */
-    padding: 0 12px;
-    padding-bottom: 8px;
+.privacy ul li {
+  /* padding reset */
+  padding: 0 12px;
+  padding-bottom: 8px;
 }
 
-.eng-btn{
-    padding:20px 30px ;
+.eng-btn {
+  padding: 20px 30px;
 }
 
-.eng-btn button{
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    outline: none;
-    border-radius: 17px;
-    font-weight: 600;
-    margin-bottom: 25px;
-    background: transparent;
-    border: 1px solid hsl(0, 1%, 53%);
+.eng-btn button {
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 17px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  background: transparent;
+  border: 1px solid hsl(0, 1%, 53%);
 }
-.eng-btn button span i{
-   background: transparent;
-   color: rgb(255, 255, 255);
-   margin-right: 5px;
-    
-}
-
-.eng-btn button:hover{
-    padding: 11px 21px;
-    border: 1px solid hsl(0, 0%, 100%);
-    
+.eng-btn button span i {
+  background: transparent;
+  color: rgb(255, 255, 255);
+  margin-right: 5px;
 }
 
-.main-section{
-    margin-left: 25vw;
-    background:hsl(0, 0%, 9%) ;
-    height: 100vh;
-    overflow-y: auto;
-    margin-top: 10px;
-    border-radius: 10px;
-    margin-bottom: 80px;
+.eng-btn button:hover {
+  padding: 11px 21px;
+  border: 1px solid hsl(0, 0%, 100%);
 }
 
-.main-section::-webkit-scrollbar{
-    background: transparent;
+.main-section {
+  margin-left: 25vw;
+  background: hsl(0, 0%, 9%);
+  height: 100vh;
+  overflow-y: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  margin-bottom: 80px;
 }
 
-.main-section::-webkit-scrollbar-thumb{
-    background: transparent;
-    width: 10px;
+.main-section::-webkit-scrollbar {
+  background: transparent;
 }
 
-.main-section:hover::-webkit-scrollbar-thumb{
-    background:hsl(0, 1%, 19%);
-    width: 5px;
+.main-section::-webkit-scrollbar-thumb {
+  background: transparent;
+  width: 10px;
 }
 
-.main-section .top-nav{
-    position: sticky;
-    top: 0px;
-    padding: 20px 30px;
-    background: hsl(0, 0%, 8%);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.main-section:hover::-webkit-scrollbar-thumb {
+  background: hsl(0, 1%, 19%);
+  width: 5px;
 }
 
-.main-section .top-nav button{
-    background: transparent;
-    border: 0;
-    outline: 0;
+.main-section .top-nav {
+  position: sticky;
+  top: 0px;
+  padding: 20px 30px;
+  background: hsl(0, 0%, 8%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.main-section .top-nav .prev-btn button{
-    color: hsl(0, 1%, 65%);
-    font-size: 22px;
-    margin-right: 20px;
+.main-section .top-nav button {
+  background: transparent;
+  border: 0;
+  outline: 0;
 }
 
-.top-nav .login-btn .sign-up{
-    color:hsl(0, 0%, 43%)  ;
-    font-size: 15px;
-    font-weight: 600;
-    margin-right: 25px;
+.main-section .top-nav .prev-btn button {
+  color: hsl(0, 1%, 65%);
+  font-size: 22px;
+  margin-right: 20px;
 }
 
-.top-nav .login-btn .sign-up a{
-    color:hsl(0, 0%, 43%)  ;
-    text-decoration: none;
+.top-nav .login-btn .sign-up {
+  color: hsl(0, 0%, 43%);
+  font-size: 15px;
+  font-weight: 600;
+  margin-right: 25px;
 }
 
-.top-nav .login-btn .sign-up a:hover{
-    color: white;
+.top-nav .login-btn .sign-up a {
+  color: hsl(0, 0%, 43%);
+  text-decoration: none;
 }
 
-.top-nav .login-btn .login{
-    color:hsl(0, 0%, 16%)  ;
-    font-size: 15px;
-    font-weight: 600;
-    background: white;
-    padding: 10px 15px;
-    border-radius: 20px;
+.top-nav .login-btn .login a {
+  color: black;
+  text-decoration: none;
 }
 
-.top-nav .login-btn .login:hover{
-   background:hsl(0, 0%, 53%)  ;
+.top-nav .login-btn .sign-up a:hover {
+  color: white;
 }
 
-.spotify-playlist{
-    padding: 20px 40px;
+.top-nav .login-btn .login {
+  color: hsl(0, 0%, 16%);
+  font-size: 15px;
+  font-weight: 600;
+  background: white;
+  padding: 10px 15px;
+  border-radius: 20px;
 }
 
-.spotify-playlist h2{
-    font-size: 22px;
-    color: hsl(0, 0%, 100%);
-    margin-bottom: 20px;
+.top-nav .login-btn .login:hover {
+  background: hsl(0, 0%, 53%);
 }
 
-.spotify-playlist .card{
-    display: flex;
-    gap: 20px;
-    overflow: hidden;
+.spotify-playlist {
+  padding: 20px 40px;
 }
 
-.spotify-playlist .card .item{
-    width: 190px;
-    min-width: 140px;
-    background-color: hsla(0, 0%, 44%, 0.094);
-    cursor: pointer;
-    border-radius: 6px;
-    padding:16px ;
+.spotify-playlist h2 {
+  font-size: 22px;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 20px;
 }
 
-.spotify-playlist .card .item:hover{
-    background-color: hsl(0, 0%, 23%) ;
+.spotify-playlist .card {
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
 }
 
-
-
-
-.spotify-playlist .card .item img{
-    width: 100%;
-    border-radius: 6px;
-    margin-bottom: 10px;
+.spotify-playlist .card .item {
+  width: 190px;
+  min-width: 140px;
+  background-color: hsla(0, 0%, 44%, 0.094);
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 16px;
 }
 
-
-.spotify-playlist .item h4{
-    color: hsl(0, 0%, 100%);
+.spotify-playlist .card .item:hover {
+  background-color: hsl(0, 0%, 23%);
 }
 
-.spotify-playlist .item p{
-    color: hsl(0, 1%, 66%);
-    font-size: 13px;
-    margin-top: 10px;
+.spotify-playlist .card .item img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
 }
 
-.spotify-playlist .item p:hover{
-    text-decoration: underline;
+.spotify-playlist .item h4 {
+  color: hsl(0, 0%, 100%);
 }
 
-.spotify-playlist .playbtn{
-    position: relative;
+.spotify-playlist .item p {
+  color: hsl(0, 1%, 66%);
+  font-size: 13px;
+  margin-top: 10px;
 }
 
-.spotify-playlist .playbtn i{
-    position: absolute;
-    background: hsl(141, 73%, 42%);
-    border-radius: 50%;
-    padding: 10px 12px;
-    top: -40px;
-    right: 10px;
-    opacity: 0;
-    transform: 0.01s ease all;
+.spotify-playlist .item p:hover {
+  text-decoration: underline;
 }
 
-.spotify-playlist .card .item:hover i{
-    opacity: 1;
-    transform: translateY(-20px);
+.spotify-playlist .playbtn {
+  position: relative;
 }
 
-
-.footer-section{
-    padding: 20px 40px;
+.spotify-playlist .playbtn i {
+  position: absolute;
+  background: hsl(141, 73%, 42%);
+  border-radius: 50%;
+  padding: 10px 12px;
+  top: -40px;
+  right: 10px;
+  opacity: 0;
+  transform: 0.01s ease all;
 }
 
-.footer-section .footer{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
+.spotify-playlist .card .item:hover i {
+  opacity: 1;
+  transform: translateY(-20px);
 }
 
-.footer-section .footer .footer-links{
-    display: flex;
-    justify-content: space-between;
-    gap: 50px;
+.footer-section {
+  padding: 20px 40px;
 }
 
-.footer-section .footer .footer-links .footer-column{
-   margin: 0 12px;
+.footer-section .footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
 }
 
-.footer-section .footer .footer-links div{
-   color: white;
-   font-weight: 550;
-   margin-bottom: 12px;
-   font-size: 17px;
+.footer-section .footer .footer-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
 
- }
+.footer-section .footer .footer-links .footer-column {
+  margin: 0 12px;
+}
 
- .footer-section .footer .footer-links ul li{
-    list-style: none;
-    margin: 6px 0;
- 
-  }
+.footer-section .footer .footer-links div {
+  color: white;
+  font-weight: 550;
+  margin-bottom: 12px;
+  font-size: 17px;
+}
 
-  .footer-section .footer .footer-links ul li a{
-text-decoration: none;
-color: #969393;
-font-size: 14px;
-cursor: pointer;
-font-weight: 540;
- 
-  }
+.footer-section .footer .footer-links ul li {
+  list-style: none;
+  margin: 6px 0;
+}
 
-  .footer-section .footer .footer-links ul li a:hover{
-    color: #d8d7d7;
-    text-decoration: underline;
-     
-      }
+.footer-section .footer .footer-links ul li a {
+  text-decoration: none;
+  color: #969393;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 540;
+}
 
+.footer-section .footer .footer-links ul li a:hover {
+  color: #d8d7d7;
+  text-decoration: underline;
+}
 
+.footer .social-link i {
+  color: hsl(0, 0%, 100%);
+  background: hsl(0, 1%, 21%);
+  padding: 12px;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
 
+.footer .social-link i:hover {
+  background: hsl(0, 0%, 53%);
+}
 
-      .footer .social-link i{
-        color: hsl(0, 0%, 100%);
-        background: hsl(0, 1%, 21%);
-        padding: 12px;
-        border-radius: 50%;
-        margin: 0 5px;
-        cursor: pointer;
-      }
+hr {
+  margin: 20px 40px;
+  border: 1px solid grey;
+  transform: scaleY(0.5); /* makes it visually thinner */
+  transform-origin: top;
+}
 
-      .footer .social-link i:hover{
-        background: hsl(0, 0%, 53%);
-      }
+.copyrightcontainer {
+  padding: 20px 40px;
+  margin: 20px 0px;
+}
 
-      hr{
-        margin: 20px 40px;
-        border: 1px solid grey;
-        transform: scaleY(0.5); /* makes it visually thinner */
-        transform-origin: top;
-      }
+.copyrightcontainer .copyright {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+}
 
-      .copyrightcontainer{
-        padding: 20px 40px;
-        margin:20px 0px;
-      }
+.copyrightcontainer .copyright li {
+  list-style: none;
+  font-weight: 550px;
+}
 
+.copyrightcontainer .copyright li a {
+  color: hsl(0, 1%, 73%);
+  text-decoration: none;
+  font-size: 14px;
+}
 
-      .copyrightcontainer .copyright{
-        display: flex;
-        gap: 20px;
-        margin-bottom: 40px;
-      }
+.copyrightcontainer .copyright li a:hover {
+  color: hsl(0, 1%, 86%);
+}
 
-      .copyrightcontainer .copyright li{
-        list-style: none;
-        font-weight: 550px;
-      }
+.copyrightcontainer {
+  position: relative;
+}
 
-      .copyrightcontainer .copyright li a{
-        color:hsl(0, 1%, 73%);
-        text-decoration: none;
-        font-size: 14px;
-      }
+.copyrightcontainer p {
+  position: absolute;
+  right: 10px;
+  top: 23px;
+  font-size: 14px;
+  color: hsl(0, 1%, 73%);
+  cursor: pointer;
+  margin-right: 30px;
+}
 
-      .copyrightcontainer .copyright li a:hover{
-        color:hsl(0, 1%, 86%);
-       
-      }
+.copyrightcontainer p:hover {
+  color: hsl(0, 1%, 86%);
+}
 
-      .copyrightcontainer{
-        position: relative;
-       
-      }
+.preview {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(to right, #ae2896, #509bf5);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 12px 40px;
+}
 
-      .copyrightcontainer p{
-        position: absolute;
-        right: 10px;
-        top: 23px;
-        font-size: 14px;
-        color: hsl(0, 1%, 73%);
-        cursor: pointer;
-        margin-right: 30px;
-      }
+.preview h4 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 7px;
+  color: white;
+}
 
-      .copyrightcontainer p:hover{
-        color:hsl(0, 1%, 86%);
-        
-       
-      }
+.preview p {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
 
+.preview button {
+  padding: 12px 30px;
+  border: 0;
+  outline: 0;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
 
-      .preview{
-        display: flex;
-        justify-content: space-between;
-        background: linear-gradient(to right, #ae2896, #509bf5);
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        padding: 12px 40px;
-      }
-
-      .preview h4{
-        font-size: 14px;
-        font-weight: 600;
-        margin-bottom: 7px;
-        color: white;
-      }
-
-      .preview p{
-        font-size: 16px;
-        font-weight: 400;
-        color: white;
-      }
-
-      .preview button{
-        padding: 12px 30px;
-        border: 0;
-        outline: 0;
-        border-radius: 20px;
-        font-size: 14px;
-        font-weight: 600;
-      }
-
-      .preview button a{
-        text-decoration: none;
-        color: black;
-      }
+.preview button a {
+  text-decoration: none;
+  color: black;
+}

@@ -1,55 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Spotify Login</title>
-  <link rel="stylesheet" href="login.css" />
-  <link rel="icon" href="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Green.png" />
-</head>
-<body>
-  <header class="header">
-    <nav class="nav">
-      <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_White.png" alt="Spotify Logo" class="logo" />
-    </nav>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login screen</title>
+    <link
+      rel="icon"
+      href="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Green.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
 
-  <main class="main">
-    <div class="login-box">
-      <h1>Log in to Spotify</h1>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-container">
+        <header class="head">
+          <div class="logo">
+            <i class="fa-brands fa-spotify"></i>
+          </div>
+          <h2 class="head-txt">Log in to Spotify</h2>
+        </header>
 
-      <div class="social-buttons">
-        <button class="btn social"><img src="https://img.icons8.com/color/48/000000/google-logo.png" alt="">Continue with Google</button>
-        <button class="btn social"><img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="">Continue with Facebook</button>
-        <button class="btn social"><img src="https://img.icons8.com/ios-filled/50/ffffff/mac-os.png" alt="">Continue with Apple</button>
-      </div>
+        <div class="main-section">
+          <div class="social-btn">
+            <div class="button google-btn">
+              <span><img src="image/google.webp" alt="google icon" /></span>
+              <button class="btn google">Continue with Google</button>
+            </div>
 
-      <div class="divider">or</div>
+            <div class="button facebook-btn">
+              <span><img src="image/facebook.svg" alt="faceook icon" /></span>
+              <button class="btn facebook">Continue with Facebook</button>
+            </div>
 
-      <form>
-        <label>Email or username</label>
-        <input type="text" placeholder="Email or username" required />
+            <div class="button apple-btn">
+              <span> <img src="image/apple.png" alt="apple icon" /></span>
+              <button class="btn apple">Continue with Apple</button>
+            </div>
+          </div>
 
-        <label>Password</label>
-        <input type="password" placeholder="Password" required />
+          <hr />
 
-        <div class="remember">
-          <input type="checkbox" id="remember" checked />
-          <label for="remember">Remember me</label>
+          <div class="form-container">
+            <form action="">
+              <div class="box email-box">
+                <label for="email">Email or username </label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email or username"
+                />
+              </div>
+
+              <div class="box pass-box">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder="Password"
+                />
+                <i class="fa-solid fa-eye-slash eye"></i>
+              </div>
+
+              <div class="login-btn">
+                <button class="login btn">Log in</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="remember">
+            <a href="#">Forget your password?</a>
+          </div>
+
+          <div class="signup">
+            <p>
+              Don't have an account?<a href="signup.html"
+                >Sign up for Spotify</a
+              >
+            </p>
+          </div>
         </div>
-
-        <button type="submit" class="btn login">Log In</button>
-      </form>
-
-      <div class="links">
-        <a href="#">Forgot your password?</a>
-        <p>Don't have an account? <a href="#">Sign up for Spotify</a></p>
       </div>
-    </div>
-  </main>
 
-  <footer class="footer">
-    <p>This site is protected by reCAPTCHA and the Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a> apply.</p>
-  </footer>
-</body>
+      <footer class="foot">
+        <p>
+          This site is protected by reCAPTCHA and the Google
+          <a href="#">Privacy Policy</a> and
+          <a href="#">Terms of Service</a> apply.
+        </p>
+      </footer>
+    </div>
+  </body>
 </html>

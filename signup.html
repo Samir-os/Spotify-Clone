@@ -1,83 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="icon"
       href="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Green.png"
     />
     <!-- Font Awesome CDN -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-<link rel="stylesheet" href="signup.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="signup.css" />
 
     <title>Sign-Up</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="login-container">
+      <header class="head">
+        <nav class="navcontent">
+          <i class="fa-brands fa-spotify spotify-icon"></i>
+        </nav>
+        <div class="head-txt">
+          <h2>Sign up to</h2>
+          <h2>start listening</h2>
+        </div>
+      </header>
 
-        <header class="head">
-            <nav class="navcontent">
-                <i class="fa-brands fa-spotify spotify-icon"></i>
-            </nav>
-            <div class="head-txt">
-                <h2>Sign up to</h2>
-                <h2>start listening</h2>
+      <main class="main-container">
+        <div class="login">
+          <form class="spotify-form">
+            <div class="email-form">
+              <label for="email" class="email-add">Email address</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="email-input"
+                placeholder="name@domain.com"
+              />
             </div>
-        </header>
-    
-        <main class="main-container">
-           <div class="login">
-            <form class="spotify-form">
-                <div class="email-form">
-                   <label for="email" class="email-add">Email address</label>
-                   <input type="email" name="email" id="email" class="email-input" placeholder="name@domain.com">
-                </div>
-                <div class="btn">
-                    <button class="next">
-                        Next
-                    </button>
-                </div>
-            </form>
-    
-            <div class="or">
-                <p>or</p>
+            <div class="btn">
+              <button class="next">Next</button>
             </div>
-    
-            <form  class="social-btn">
-                <div class="social-signup">
-                    <div class="social google-continue">
-                        <span><img src="image/google.webp" alt="google icon"></span>
-                    <button class=" google">Sign up with Google</button>
-                    </div>
-    
-                    <div class="social  facebook-continue">
-                        <span><img src="image/facebook.svg" alt="facebook icon"></span>
-                    <button class="facebook">Sign up with Facebook</button>
-                    </div>
-    
-    <div class="social apple-continue">
-        <span><img src="image/apple.png" alt="apple icon"></span>
-        <button class=" apple">Sign up with Apple</button>
-    </div>
-                   
-                </div>
-            </form>
-            <hr>
-    
-            <div class="remainder">
-                <p>Already have an account?<a href="#">Log in here</a></p>
-            </div>
-           </div>
+          </form>
 
-           <footer class="footer">
-            <p>This site is protedted by reCAPTCHA and the google</p>
-            <p class="policy"><a href="#">Privacy Policy</a>and <a href="#">Terms of Services</a>apply.</p>
+          <div class="or">
+            <p>or</p>
+          </div>
+
+          <form class="social-btn">
+            <div class="social-signup">
+              <div class="social google-continue">
+                <span><img src="image/google.webp" alt="google icon" /></span>
+                <button class="google">Sign up with Google</button>
+              </div>
+
+              <div class="social facebook-continue">
+                <span
+                  ><img src="image/facebook.svg" alt="facebook icon"
+                /></span>
+                <button class="facebook">Sign up with Facebook</button>
+              </div>
+
+              <div class="social apple-continue">
+                <span><img src="image/apple.png" alt="apple icon" /></span>
+                <button class="apple">Sign up with Apple</button>
+              </div>
+            </div>
+          </form>
+          <hr />
+
+          <div class="remainder">
+            <p>Already have an account?<a href="login.html">Log in here</a></p>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <p>This site is protedted by reCAPTCHA and the google</p>
+          <p class="policy">
+            <a href="#">Privacy Policy</a>and
+            <a href="#">Terms of Services</a>apply.
+          </p>
         </footer>
-        </main>
-    
-       
+      </main>
     </div>
-    
-</body>
+  </body>
 </html>
